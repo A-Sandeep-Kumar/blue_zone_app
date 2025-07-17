@@ -1,0 +1,86 @@
+// dummy_product_uploader.dart
+
+import 'product_model.dart';
+
+List<Product> dummyProducts = [
+  Product(
+    id: '1',
+    name: 'Anime T-Shirt',
+    description: 'Stylish anime printed cotton T-shirt.',
+    price: 999,
+    imageUrl: 'https://i.ibb.co/TBKXmSx/anime-tshirt.jpg',
+    category: 'Clothing',
+  ),
+  Product(
+    id: '2',
+    name: 'Smart Watch',
+    description: 'Fitness watch with step tracking and notifications.',
+    price: 2499,
+    imageUrl: 'https://i.ibb.co/VKBytH6/smart-watch.jpg',
+    category: 'Electronics',
+  ),
+  Product(
+    id: '3',
+    name: 'Blue T-Shirt',
+    description: 'Comfortable blue round-neck T-shirt.',
+    price: 499,
+    imageUrl: 'https://i.ibb.co/hRDCN54/blue-tshirt.jpg',
+    category: 'Clothing',
+  ),
+  Product(
+    id: '4',
+    name: 'White Sneakers',
+    description: 'Trendy sneakers perfect for daily wear.',
+    price: 1799,
+    imageUrl: 'https://i.ibb.co/8RmX8SH/white-shoes.jpg',
+    category: 'Footwear',
+  ),
+  Product(
+    id: '5',
+    name: 'Leather Wallet',
+    description: 'Premium black leather wallet for men.',
+    price: 799,
+    imageUrl: 'https://i.ibb.co/MyVHRPB/wallet.jpg',
+    category: 'Accessories',
+  ),
+  Product(
+    id: '6',
+    name: 'Mobile Earbuds',
+    description: 'Wireless Bluetooth earbuds with noise isolation.',
+    price: 1199,
+    imageUrl: 'https://i.ibb.co/sp9CjQV/earbuds.jpg',
+    category: 'Electronics',
+  ),
+  Product(
+    id: '7',
+    name: 'Digital Backpack',
+    description: 'Spacious tech backpack with USB charging port.',
+    price: 1599,
+    imageUrl: 'https://i.ibb.co/nqd13bh/backpack.jpg',
+    category: 'Bags',
+  ),
+  Product(
+    id: '8',
+    name: 'Casual Shirt',
+    description: 'Casual shirt for outings and office wear.',
+    price: 899,
+    imageUrl: 'https://i.ibb.co/1GVwNbR/shirt.jpg',
+    category: 'Clothing',
+  ),
+  Product(
+    id: '9',
+    name: 'Sunglasses',
+    description: 'UV-protected stylish black sunglasses.',
+    price: 699,
+    imageUrl: 'https://i.ibb.co/d0rPZ3K/sunglasses.jpg',
+    category: 'Accessories',
+  ),
+  Product(
+    id: '10',
+    name: 'Sports Cap',
+    description: 'Lightweight breathable cap for sports & gym.',
+    price: 399,
+    imageUrl: 'https://i.ibb.co/TDKZzgQ/cap.jpg',
+    category: 'Accessories',
+  ),
+];

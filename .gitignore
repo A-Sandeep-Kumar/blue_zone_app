@@ -1,0 +1,27 @@
+# Dart & Flutter
+.dart_tool/
+.packages
+.pub-cache/
+build/
+.idea/
+.vscode/
+*.iml
+
+# Android
+android/.gradle/
+android/app/build/
+*.apk
+*.aab
+
+# iOS
+ios/Pods/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+
+# macOS
+macos/Pods/
+
+# Windows
+windows/runner/Debug/
+windows/runner/Release/
+windows/flutter/ephemeral/
